@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    max-width: 100%;
+}
+#brick{
+    width: 4%;
+    max-width: 100%;
+}
+.gen{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight:600;
+    background-color: #FFD600;
+    padding: 1%;
+    color: white;
+}
+.bric{
+    margin-left: -11%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.ent1{
+    display: flex;
+    gap: 15%;
+    margin-top: 3%;
+}
+.ent2{
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+}
+h5{
+    font-size: 20px;
+}
+input{
+    padding: 9%;
+    width: 180%;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #252525;
+}
+.product{
+    margin-left: 65%;
+    margin-top: -25%;
+    padding: 10%;
+    border-radius: 15px;
+    border: #928e8e solid;
+    height: 70vh;
+    width: 32%;
+}
+.all{
+    margin-left: 6%;
+    margin-top: 4%;
+}
+.pro{
+    margin-top: -65%;
+    margin-left: -60%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nam{
+    margin-left: -60%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nem{
+    margin-left: -60%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.num{
+    margin-left: 20%;
+    margin-top: -20%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.on{
+    margin-top: 30%;
+    padding: 10%;
+    width: 200%;
+    margin-left: -65%;
+    font-size: 18px;
+    border: green solid;
+    color:green;
+    border-radius: 15px;
+}
+.tw{
+    margin-top: 30%;
+    padding: 10%;
+    width: 200%;
+    margin-left: -65%;
+    font-size: 18px;
+    background-color: #FFD600;
+    border: #FFD600 solid;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+.wo{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -100px;
+}
+.no{
+    margin-top: 50px;
+
+}
+.uko{
+    margin-top: 50px;
+
+}
+.green{
+    margin-left: 40%;
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: -170px;
+}
+.red{
+    color: #E70062;
+}
+.gr1{
+    margin-top: 60px;
+    color: green;
+
+}
+.gr2{
+    margin-top: 40px;
+    color: green;
+}
+.ime{
+    width: 20px;
+    margin-top: 25px;
+}
+#we,#wi{
+    width: 40px;
+}
+#wa{
+    width: 50px;
+}
+#we{
+    margin-top: 20px;
+}
+#wi{
+    margin-top: 20px;
+}
+.wo{
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -180px;
+}
+.all1{
+    margin-left: 6%;
+}
+h1{
+    font-size: 40px;
+}
+#yey{
+    width: 3%;
+    margin-left: 4%;
+}
+.for{
+    margin-left: 10%;
+    margin-top: -3%;
+    font-size: 30px;
+}
+#yiy{
+    width: 3%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+#yay{
+    width: 3%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.vuj{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40%;
+    color: #928e8e;
+}
+
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    .ent1, .ent2 {
+      flex-direction: column;
+    }
+    input {
+      width: 100%;
+    }
+    .product {
+      margin-left: 0;
+      margin-top: 0;
+      width: 100%;
+    }
+    .pro, .nam, .nem, .num, .wo, .green, .vuj {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+    .wo {
+      font-size: 25px;
+    }
+    .gen {
+      font-size: 20px;
+      padding: 0.5%;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+  
+  /* For screens with a minimum width of 768px and a maximum width of 1024px */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .ent1, .ent2 {
+      gap: 10%;
+    }
+    .product {
+      margin-left: 10%;
+      margin-top: -15%;
+      width: 25%;
+    }
+    .pro, .nam, .nem, .num, .wo, .green, .vuj {
+      text-align: left;
+    }
+  }
+  
+  /* For screens with a minimum width of 1024px */
+  @media only screen and (min-width: 1024px) {
+    .ent1, .ent2 {
+      gap: 15%;
+    }
+    input {
+      width: 180%;
+    }
+    .product {
+      margin-left: 65%;
+      margin-top: -25%;
+      width: 32%;
+    }
+    .pro, .nam, .nem, .num, .wo, .green, .vuj {
+      text-align: left;
+    }
+  }
+  
